@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap');
+
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+body {
+    font-family: comfortaa;
+    background-color: #F3F6FD;
+}
+
+.panel {
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    color: #232360;
+    font-weight: 600;
+}
+
+.action {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+}
+
+.answer {
+    padding: 10px 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 5px solid #EDECFE;
+    font-size: 20px;
+    text-align: center;
+}
+
+.interactive {
+   text-align: center;
+   font-weight: 600;
+   font-size: 20px;
+   padding: 20px 40px;
+   letter-spacing: 1px;
+   line-height: 15pxpx;
+}
+
+.button {
+    margin-top: 50px;
+    padding: 20px 50px;
+    border: none;
+    width: 250px;
+    height: 50px;;
+    background: #EDECFE;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 14px;
+    color: #5051F9;
+}
+
+.footer {
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button__none {
+    display: none;
+}
